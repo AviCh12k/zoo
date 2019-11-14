@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("Photo 3 Vishal Bansod WCT.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Full-width input fields */
+
+/*body-header*/
+
+#body-header {
+  height: 20vh;
+  opacity: 0.8;
+  background-image: url("static/pic7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*horizontal list*/
+.horizontalline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.horizontalline li {
+  display: inline-block;
+  margin: 0px 8px 8px 0px;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.horizontalline li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu li a {
+  font-size: 1.2rem;
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  color: lightgrey;
+  border-bottom: 1px solid white;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+/*my-name*/
+#name-social-container {
+  margin-top: 5vh;
+}
+
+/*social-icons*/
+
+.social-icons li a {
+  margin: 0rem 1rem;
+  border-radius: 50%;
+}
+
+.social-icons li a:hover {
+  box-shadow: 0px 0px 4px 4px red;
+}
+
+#main-part {
+  border: black solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Anotherpart {
+  border: black solid 2px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.Anotherpart1 {
+  border: black solid 2px;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.para1 {
+  font-size: 4rem;
+  color: blue;
+  font-family: "Big Shoulders Text", cursive;
+}
+
+.main-form {
+  width: 100%;
+}
+
+.written-part {
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  width: 100%;
+  float: right;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
